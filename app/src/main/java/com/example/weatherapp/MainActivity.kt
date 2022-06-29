@@ -146,8 +146,8 @@ class MainActivity : AppCompatActivity() {
         val sdf=SimpleDateFormat("dd/MM/yyyy hh:mm")
         val currentDate=sdf.format(Date())
         activityMainBinding.tvDateAndTime.text=currentDate
-        activityMainBinding.tvDayMaxTemp.text="" + kelvinToCelsius(body!!.main.temp_max) + "°"
-        activityMainBinding.tvDayMinTemp.text="" + kelvinToCelsius(body!!.main.temp_min) + "°"
+        activityMainBinding.tvDayMaxTemp.text="Max: " + kelvinToCelsius(body!!.main.temp_max) + "°"
+        activityMainBinding.tvDayMinTemp.text="Min: " + kelvinToCelsius(body!!.main.temp_min) + "°"
         activityMainBinding.tvTemp.text="" + kelvinToCelsius(body!!.main.temp) + "°"
         activityMainBinding.tvFeelsLike.text="Feels like " + kelvinToCelsius(body!!.main.feels_like) + "°"
         activityMainBinding.tvWeatherType.text=body.weather[0].main
