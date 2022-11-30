@@ -240,23 +240,23 @@
                                     </ImageView>
 
                                     <TextView
+                                        android:id="@+id/tv_pressure"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:id="@+id/tv_pressure"
-                                        android:textSize="25sp"
                                         android:gravity="center"
+                                        android:text="@string/default_numbers"
                                         android:textColor="@color/white"
-                                        android:text="@string/default_numbers">
+                                        android:textSize="25sp">
 
                                     </TextView>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:textSize="10sp"
                                         android:gravity="center"
+                                        android:text="@string/pressure"
                                         android:textColor="@color/white"
-                                        android:text="@string/pressure">
+                                        android:textSize="10sp">
 
                                     </TextView>
 
@@ -303,7 +303,7 @@
                                         android:textSize="10sp"
                                         android:gravity="center"
                                         android:textColor="@color/white"
-                                        android:text="@string/pressure">
+                                        android:text="@string/humidity">
 
                                     </TextView>
 
@@ -350,7 +350,7 @@
                                         android:textSize="10sp"
                                         android:gravity="center"
                                         android:textColor="@color/white"
-                                        android:text="@string/pressure">
+                                        android:text="@string/wind_speed">
 
                                     </TextView>
 
@@ -407,7 +407,7 @@
                                         android:textSize="10sp"
                                         android:gravity="center"
                                         android:textColor="@color/white"
-                                        android:text="@string/pressure">
+                                        android:text="@string/sunrise">
 
                                     </TextView>
 
@@ -454,7 +454,7 @@
                                         android:textSize="10sp"
                                         android:gravity="center"
                                         android:textColor="@color/white"
-                                        android:text="@string/pressure">
+                                        android:text="@string/sunset">
 
                                     </TextView>
 
@@ -501,7 +501,7 @@
                                         android:textSize="10sp"
                                         android:gravity="center"
                                         android:textColor="@color/white"
-                                        android:text="@string/pressure">
+                                        android:text="farenheit">
 
                                     </TextView>
 

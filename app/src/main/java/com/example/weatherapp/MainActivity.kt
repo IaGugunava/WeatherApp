@@ -154,7 +154,7 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding.tvSunrise.text=timeStampToLocalDate(body.sys.sunrise.toLong())
         activityMainBinding.tvSunset.text=timeStampToLocalDate(body.sys.sunset.toLong())
         activityMainBinding.tvPressure.text=body.main.pressure.toString()
-        activityMainBinding.tvSunset.text=body.main.humidity.toString() + " %"
+        activityMainBinding.tvHumidity.text=body.main.humidity.toString() + " %"
         activityMainBinding.tvWindSpeed.text=body.wind.speed.toString() + " m/s"
         activityMainBinding.tvTempFarenhite.text=""+((kelvinToCelsius(body.main.temp)).times(1.8).plus(32).roundToInt())
         activityMainBinding.etGetCityName.setText(body.name)
@@ -247,8 +247,8 @@ class MainActivity : AppCompatActivity() {
             //misty
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
-            window.statusBarColor=resources.getColor(R.color.atmosphere)
-            activityMainBinding.rlToolbar.setBackgroundColor(resources.getColor(R.color.atmosphere))
+            window.statusBarColor=resources.getColor(R.color.mist)
+            activityMainBinding.rlToolbar.setBackgroundColor(resources.getColor(R.color.mist))
             activityMainBinding.rlSubLayout.background=ContextCompat.getDrawable(
                 this@MainActivity,
                 R.drawable.mist
@@ -343,7 +343,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object{
         private const val PERMISSION_REQUEST_ACCESS_LOCATION=100
-        const val API_KEY = "dab3af44de7d24ae7ff86549334e45bd"
+        const val API_KEY = "e0f0e0f3abfc32ee4d9add5e9d9035ec"
     }
 
     private fun checkPermissions(): Boolean{
