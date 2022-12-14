@@ -183,6 +183,8 @@
                                 android:textSize="18sp"
                                 android:text="@string/weather_type">
 
+
+
                             </TextView>
 
                         </LinearLayout>
@@ -287,23 +289,23 @@
                                     </ImageView>
 
                                     <TextView
+                                        android:id="@+id/tv_humidity"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:id="@+id/tv_humidity"
-                                        android:textSize="25sp"
                                         android:gravity="center"
+                                        android:text="@string/default_numbers"
                                         android:textColor="@color/white"
-                                        android:text="@string/default_numbers">
+                                        android:textSize="25sp">
 
                                     </TextView>
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:textSize="10sp"
                                         android:gravity="center"
+                                        android:text="@string/humidity"
                                         android:textColor="@color/white"
-                                        android:text="@string/humidity">
+                                        android:textSize="10sp">
 
                                     </TextView>
 
