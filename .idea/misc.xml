@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/drawable/button.xml" value="0.2095" />
         <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/drawable/clear.xml" value="0.192" />
         <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/drawable/cloud.xml" value="0.192" />
         <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/drawable/clouds.xml" value="0.192" />
@@ -13,6 +14,7 @@
         <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/drawable/snow.xml" value="0.192" />
         <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/drawable/thunderstorm.xml" value="0.192" />
         <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ia/Desktop/android/WeatherApp/app/src/main/res/layout/forecast.xml" value="0.253125" />
       </map>
     </option>
   </component>

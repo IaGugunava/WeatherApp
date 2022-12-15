@@ -182,13 +182,16 @@
                                 android:layout_weight="3"
                                 android:textSize="18sp"
                                 android:text="@string/weather_type">
-
-
-
                             </TextView>
 
                         </LinearLayout>
-
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:text="forecast"
+                            android:layout_marginTop="50dp"
+                            android:background="@drawable/button"
+                            />
                     </LinearLayout>
 
                 </FrameLayout>
@@ -204,7 +207,8 @@
                     android:elevation="5dp"
                     app:cardCornerRadius="15dp"
                     app:cardMaxElevation="5dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    tools:ignore="MissingClass">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -214,8 +218,6 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/ll_main_bg_above"
-                            android:layout_marginTop="0dp"
                             android:background="@drawable/rain"
                             android:orientation="horizontal">
 
